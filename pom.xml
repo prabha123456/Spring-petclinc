@@ -447,3 +447,21 @@
 
 	<url>demopetclinic</url>
 </project>
+
+<distributionManagement>
+	
+  <repository>
+    <id>releases</id>
+    <name>Releasses</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://192.168.107.160:8081/nexus/content/repositories/releases/
+  </repository>
+	
+  <snapshotRepository>
+    <id>snapshots</id>
+    <name>Snapshots</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://192.168.107.160:8081/nexus/content/repositories/releases/
+  </snapshotRepository>
+	  
+</distributionManagement>
