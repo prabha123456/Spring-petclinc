@@ -454,14 +454,14 @@
     <id>hello</id>
     <name>Hello</name>
     <!-- CHANGE HERE by your team nexus server -->
-    http://192.168.107.160:8081/nexus/content/repositories/hello/
+    <url>http://192.168.107.160:8081/nexus/content/repositories/hello/
   </repository>
 	
   <snapshotRepository>
     <id>snapshots</id>
     <name>Snapshots</name>
     <!-- CHANGE HERE by your team nexus server -->
-    http://192.168.107.160:8081/nexus/content/repositories/hello/
+    <url>http://192.168.107.160:8081/nexus/content/repositories/hello/
   </snapshotRepository>
 	  
 </distributionManagement>
