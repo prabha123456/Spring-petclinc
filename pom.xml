@@ -451,17 +451,17 @@
 <distributionManagement>
 	
   <repository>
-    <id>param</id>
-    <name>Param</name>
+    <id>releases</id>
+    <name>Releases</name>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.107.160:8081/nexus/content/repositories/param/
+    <url>http://192.168.223.128:8081/nexus/content/repositories/releases/</url>
   </repository>
 	
   <snapshotRepository>
     <id>snapshots</id>
     <name>Snapshots</name>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://192.168.107.160:8081/nexus/content/repositories/param/
+    <url>http://192.168.223.128:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
 	  
 </distributionManagement>
